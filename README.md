@@ -1,11 +1,11 @@
 ##项目介绍
-**本项目是基于nodemcu芯片实现的一个智能动物服化工厂系统。**
-**主要功能**：实时读取温湿度以及气压，远程调色，远程控制RGB灯，温度预警。
-**主要语言**：nodejs，lua
+**本项目是基于nodemcu芯片实现的一个智能动物服化工厂系统。** <br>
+**主要功能**：实时读取温湿度以及气压，远程调色，远程控制RGB灯，温度预警。<br>
+**主要语言**：nodejs，lua<br>
 **应用软件**：esplorer（往nodemcu上上传代码），nodemcu-flash（刷nodemcu固件），vscode
-**主要技术**：[pwm](https://baike.baidu.com/item/%E8%84%89%E5%86%B2%E5%AE%BD%E5%BA%A6%E8%B0%83%E5%88%B6/10813756?fr=aladdin&fromid=3034961&fromtitle=PWM),[mqtt](https://baike.baidu.com/item/MQTT),[koa](https://koa.bootcss.com/)
-**主要框架**：koa（后端）,layui（前端）
-**硬件选用**：nodemcu，bme280，3个rgb灯。
+**主要技术**：[pwm](https://baike.baidu.com/item/%E8%84%89%E5%86%B2%E5%AE%BD%E5%BA%A6%E8%B0%83%E5%88%B6/10813756?fr=aladdin&fromid=3034961&fromtitle=PWM),[mqtt](https://baike.baidu.com/item/MQTT),[koa](https://koa.bootcss.com/)<br>
+**主要框架**：koa（后端）,layui（前端）<br>
+**硬件选用**：nodemcu，bme280，3个rgb灯。<br>
 **参考文章**：[NodeMCU Documentation](http://nodemcu.readthedocs.io/en/master/),[MQTT.js](https://github.com/mqttjs/MQTT.js),[koa教程](https://chenshenhai.github.io/koa2-note/note/start/quick.html),[mosca](https://github.com/mcollina/mosca),[layui开发文档](http://www.layui.com/doc/),[MQTT over Websockets](https://github.com/mcollina/mosca/wiki/MQTT-over-Websockets)
 ****
 ##环境搭建
